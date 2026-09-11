@@ -1,0 +1,223 @@
+{
+    "profile": {
+        "topic": "Photography",
+        "goal": "Learn photography from beginner to a strong practical level",
+        "current_level": "Complete beginner",
+        "prior_knowledge": [],
+        "constraints": []
+    },
+    "current_module": "PHOTO01",
+    "curriculum_path": [
+        "PHOTO00",
+        "PHOTO01",
+        "PHOTO02",
+        "PHOTO03",
+        "PHOTO04"
+    ],
+    "completed_modules": [
+        "PHOTO00"
+    ],
+    "mastery": {
+        "Camera components and functions": 0.9,
+        "Camera operation setup": 0.3,
+        "Technical configuration": 0.8,
+        "Demonstrate ability to operate camera hardware": 0.6,
+        "Properly configure camera settings for basic shots": 0.5,
+        "Submit fully documented setup procedures for all scenarios": 0.9,
+        "Demonstrate understanding of configuration parameters through written documentation": 0.8
+    },
+    "weaknesses": [
+        "Could provide more detailed justification for ISO choices in low light scenario",
+        "Missing specific mention of lighting equipment in low light setup",
+        "Could elaborate more on depth of field effects in portrait mode"
+    ],
+    "curriculum": {
+        "topic": "Photography",
+        "path": [
+            "PHOTO00",
+            "PHOTO01",
+            "PHOTO02",
+            "PHOTO03",
+            "PHOTO04"
+        ],
+        "modules": [
+            {
+                "code": "PHOTO00",
+                "title": "Camera Basics and Operation",
+                "prerequisites": [],
+                "objectives": [
+                    "Understand camera components and functions",
+                    "Learn basic camera operation",
+                    "Set up and maintain photographic equipment"
+                ],
+                "exercises": [
+                    {
+                        "code": "EX002",
+                        "title": "Equipment Setup",
+                        "task": "Document camera setup process for three different shooting scenarios",
+                        "evidence_type": "Process Log"
+                    }
+                ],
+                "assessment_methods": [
+                    "Portfolio review of photographs",
+                    "Technical correctness analysis"
+                ],
+                "mastery_criteria": [
+                    "Demonstrate ability to operate camera hardware",
+                    "Properly configure camera settings for basic shots"
+                ]
+            },
+            {
+                "code": "PHOTO01",
+                "title": "Understanding Exposure Triangle",
+                "prerequisites": [
+                    "PHOTO00"
+                ],
+                "objectives": [
+                    "Explain aperture, shutter speed, and ISO functions",
+                    "Adjust exposure settings for different lighting conditions",
+                    "Achieve correct exposure in various scenarios"
+                ],
+                "exercises": [
+                    {
+                        "code": "EX012",
+                        "title": "Exposure Analysis",
+                        "task": "Analyze exposure errors in 5 sample photos",
+                        "evidence_type": "Technical Report"
+                    }
+                ],
+                "assessment_methods": [
+                    "Exposure quality evaluation",
+                    "Technical correctness analysis"
+                ],
+                "mastery_criteria": [
+                    "Consistently achieve correct exposure in varied conditions"
+                ]
+            },
+            {
+                "code": "PHOTO02",
+                "title": "Composition Principles",
+                "prerequisites": [
+                    "PHOTO01"
+                ],
+                "objectives": [
+                    "Apply composition rules (rule of thirds, leading lines)",
+                    "Frame subjects effectively",
+                    "Create visually balanced images"
+                ],
+                "exercises": [
+                    {
+                        "code": "EX022",
+                        "title": "Composition Analysis",
+                        "task": "Evaluate composition in 10 professional photographs",
+                        "evidence_type": "Analysis Report"
+                    }
+                ],
+                "assessment_methods": [
+                    "Compositional skill evaluation",
+                    "Visual balance analysis"
+                ],
+                "mastery_criteria": [
+                    "Consistently apply composition principles effectively"
+                ]
+            },
+            {
+                "code": "PHOTO03",
+                "title": "Lighting Techniques",
+                "prerequisites": [
+                    "PHOTO02"
+                ],
+                "objectives": [
+                    "Understand natural/artificial lighting characteristics",
+                    "Use lighting equipment effectively",
+                    "Enhance scene composition with lighting"
+                ],
+                "exercises": [
+                    {
+                        "code": "EX032",
+                        "title": "Lighting Analysis",
+                        "task": "Analyze lighting setups in 5 professional photographs",
+                        "evidence_type": "Technical Report"
+                    }
+                ],
+                "assessment_methods": [
+                    "Lighting quality evaluation",
+                    "Scene composition analysis"
+                ],
+                "mastery_criteria": [
+                    "Effectively use lighting to enhance compositions"
+                ]
+            },
+            {
+                "code": "PHOTO04",
+                "title": "Post-Processing Fundamentals",
+                "prerequisites": [
+                    "PHOTO03"
+                ],
+                "objectives": [
+                    "Learn basic post-processing techniques",
+                    "Edit photos for exposure, color, and composition",
+                    "Apply creative enhancements"
+                ],
+                "exercises": [
+                    {
+                        "code": "EX042",
+                        "title": "Creative Enhancement",
+                        "task": "Apply creative filters to 10 photos and justify choices",
+                        "evidence_type": "Creative Report"
+                    }
+                ],
+                "assessment_methods": [
+                    "Post-processing quality assessment",
+                    "Creative effectiveness evaluation"
+                ],
+                "mastery_criteria": [
+                    "Consistently produce polished, creatively enhanced images"
+                ]
+            }
+        ],
+        "current_module": "PHOTO00"
+    },
+    "last_evaluation": {
+        "module_code": "PHOTO00-R",
+        "overall_score": 85.0,
+        "mastery": [
+            {
+                "concept": "Submit fully documented setup procedures for all scenarios",
+                "score": 0.9,
+                "evidence": "Provides detailed setup steps and example configurations for low light, motion, and portrait scenarios"
+            },
+            {
+                "concept": "Demonstrate understanding of configuration parameters through written documentation",
+                "score": 0.8,
+                "evidence": "Includes aperture/shutter speed/ISO combinations with explanations for each scenario"
+            }
+        ],
+        "strengths": [
+            "Comprehensive documentation for all three required scenarios",
+            "Clear technical explanations of camera parameter choices",
+            "Structured process log format with scenario-specific details"
+        ],
+        "weaknesses": [
+            "Could provide more detailed justification for ISO choices in low light scenario",
+            "Missing specific mention of lighting equipment in low light setup",
+            "Could elaborate more on depth of field effects in portrait mode"
+        ],
+        "evidence": [
+            "Submission contains structured documentation for three scenarios with technical parameters"
+        ],
+        "confidence": "medium"
+    },
+    "last_adaptation": {
+        "decision": "ADVANCE",
+        "reason": "The learner has met mastery criteria for equipment setup documentation with high scores. Remaining weaknesses are minor technical elaborations that do not impede progression. Advancement is appropriate as the core documentation requirements have been fulfilled.",
+        "next_module": null,
+        "focus_areas": [
+            "ISO justification in low light scenarios",
+            "Lighting equipment documentation",
+            "Depth of field effects in portraits"
+        ],
+        "path_changes": []
+    },
+    "active_reinforcement": null
+}
